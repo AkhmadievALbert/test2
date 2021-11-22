@@ -52,6 +52,7 @@ final class SignInViewController: UIViewController {
         title = "Enter login"
 
         view.addSubview(loginField)
+        view.addSubview(passwordField)
         view.addSubview(nextButton)
 
         loginField.snp.makeConstraints {
@@ -60,7 +61,7 @@ final class SignInViewController: UIViewController {
         }
 
         passwordField.snp.makeConstraints {
-            $0.centerY.centerX.equalToSuperview()
+            $0.centerX.equalToSuperview()
             $0.leading.trailing.equalToSuperview().inset(16)
             $0.top.equalTo(loginField.snp.bottom).offset(16)
         }
