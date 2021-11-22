@@ -9,20 +9,56 @@
 /* Begin PBXBuildFile section */
 		4A9898F0274BE54E008A5FAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9898EF274BE54E008A5FAA /* AppDelegate.swift */; };
 		4A9898F2274BE54E008A5FAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9898F1274BE54E008A5FAA /* SceneDelegate.swift */; };
-		4A9898F4274BE54E008A5FAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9898F3274BE54E008A5FAA /* ViewController.swift */; };
 		4A9898F9274BE552008A5FAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A9898F8274BE552008A5FAA /* Assets.xcassets */; };
 		4A9898FC274BE552008A5FAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A9898FA274BE552008A5FAA /* LaunchScreen.storyboard */; };
 		4A989908274BE971008A5FAA /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4A989907274BE971008A5FAA /* SnapKit */; };
+		4A98990B274BEBE5008A5FAA /* MainFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A98990A274BEBE5008A5FAA /* MainFlowCoordinator.swift */; };
+		4A98990D274BEBF7008A5FAA /* FlowCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A98990C274BEBF7008A5FAA /* FlowCoordinatorProtocol.swift */; };
+		4A989910274BEE6D008A5FAA /* UserDefaultsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A98990F274BEE6D008A5FAA /* UserDefaultsService.swift */; };
+		4A989916274BEFB0008A5FAA /* AuthChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A989915274BEFB0008A5FAA /* AuthChoiceViewController.swift */; };
+		4A989918274BF17C008A5FAA /* AuthChoiceModuleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A989917274BF17C008A5FAA /* AuthChoiceModuleIO.swift */; };
+		4A98991C274BF272008A5FAA /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A98991B274BF272008A5FAA /* ModuleBuilder.swift */; };
+		4A98991F274BF674008A5FAA /* SignUpLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A98991E274BF674008A5FAA /* SignUpLoginViewController.swift */; };
+		4A989921274BF746008A5FAA /* SignUpModuleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A989920274BF746008A5FAA /* SignUpModuleIO.swift */; };
+		4A989923274BF8B4008A5FAA /* SignUpPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A989922274BF8B4008A5FAA /* SignUpPasswordViewController.swift */; };
+		4A989925274BFA88008A5FAA /* SignUpFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A989924274BFA88008A5FAA /* SignUpFlowCoordinator.swift */; };
+		4A989928274BFDB1008A5FAA /* Array+FlowCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A989927274BFDB1008A5FAA /* Array+FlowCoordinatorProtocol.swift */; };
+		4A98992B274C0209008A5FAA /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A98992A274C0209008A5FAA /* SignInViewController.swift */; };
+		4A98992D274C0215008A5FAA /* SignInModuleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A98992C274C0215008A5FAA /* SignInModuleIO.swift */; };
+		4A989930274C031F008A5FAA /* SignInFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A98992F274C031F008A5FAA /* SignInFlowCoordinator.swift */; };
+		4A989933274C0522008A5FAA /* JokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A989932274C0522008A5FAA /* JokesViewController.swift */; };
+		4A989935274C06CA008A5FAA /* JokesModuleIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A989934274C06CA008A5FAA /* JokesModuleIO.swift */; };
+		4A989937274C080C008A5FAA /* JokeFlowCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A989936274C080C008A5FAA /* JokeFlowCoordinator.swift */; };
+		4A989939274C0C34008A5FAA /* JokeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A989938274C0C34008A5FAA /* JokeService.swift */; };
+		4A98993C274C0CF1008A5FAA /* JokeResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A98993B274C0CF1008A5FAA /* JokeResponseModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A9898EC274BE54E008A5FAA /* test2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A9898EF274BE54E008A5FAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A9898F1274BE54E008A5FAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4A9898F3274BE54E008A5FAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4A9898F8274BE552008A5FAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A9898FB274BE552008A5FAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A9898FD274BE552008A5FAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A98990A274BEBE5008A5FAA /* MainFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFlowCoordinator.swift; sourceTree = "<group>"; };
+		4A98990C274BEBF7008A5FAA /* FlowCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		4A98990F274BEE6D008A5FAA /* UserDefaultsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsService.swift; sourceTree = "<group>"; };
+		4A989915274BEFB0008A5FAA /* AuthChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthChoiceViewController.swift; sourceTree = "<group>"; };
+		4A989917274BF17C008A5FAA /* AuthChoiceModuleIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthChoiceModuleIO.swift; sourceTree = "<group>"; };
+		4A98991B274BF272008A5FAA /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
+		4A98991E274BF674008A5FAA /* SignUpLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpLoginViewController.swift; sourceTree = "<group>"; };
+		4A989920274BF746008A5FAA /* SignUpModuleIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModuleIO.swift; sourceTree = "<group>"; };
+		4A989922274BF8B4008A5FAA /* SignUpPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPasswordViewController.swift; sourceTree = "<group>"; };
+		4A989924274BFA88008A5FAA /* SignUpFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFlowCoordinator.swift; sourceTree = "<group>"; };
+		4A989927274BFDB1008A5FAA /* Array+FlowCoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+FlowCoordinatorProtocol.swift"; sourceTree = "<group>"; };
+		4A98992A274C0209008A5FAA /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		4A98992C274C0215008A5FAA /* SignInModuleIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInModuleIO.swift; sourceTree = "<group>"; };
+		4A98992F274C031F008A5FAA /* SignInFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInFlowCoordinator.swift; sourceTree = "<group>"; };
+		4A989932274C0522008A5FAA /* JokesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesViewController.swift; sourceTree = "<group>"; };
+		4A989934274C06CA008A5FAA /* JokesModuleIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesModuleIO.swift; sourceTree = "<group>"; };
+		4A989936274C080C008A5FAA /* JokeFlowCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeFlowCoordinator.swift; sourceTree = "<group>"; };
+		4A989938274C0C34008A5FAA /* JokeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeService.swift; sourceTree = "<group>"; };
+		4A98993B274C0CF1008A5FAA /* JokeResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeResponseModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,14 +92,104 @@
 		4A9898EE274BE54E008A5FAA /* test2 */ = {
 			isa = PBXGroup;
 			children = (
+				4A98993A274C0CDC008A5FAA /* Model */,
+				4A989926274BFD99008A5FAA /* Extension */,
+				4A989913274BEF91008A5FAA /* Module */,
+				4A98990E274BEDBB008A5FAA /* Service */,
+				4A989909274BEB00008A5FAA /* Coordinator */,
 				4A9898EF274BE54E008A5FAA /* AppDelegate.swift */,
 				4A9898F1274BE54E008A5FAA /* SceneDelegate.swift */,
-				4A9898F3274BE54E008A5FAA /* ViewController.swift */,
 				4A9898F8274BE552008A5FAA /* Assets.xcassets */,
 				4A9898FA274BE552008A5FAA /* LaunchScreen.storyboard */,
 				4A9898FD274BE552008A5FAA /* Info.plist */,
 			);
 			path = test2;
+			sourceTree = "<group>";
+		};
+		4A989909274BEB00008A5FAA /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				4A98990A274BEBE5008A5FAA /* MainFlowCoordinator.swift */,
+				4A98990C274BEBF7008A5FAA /* FlowCoordinatorProtocol.swift */,
+				4A989924274BFA88008A5FAA /* SignUpFlowCoordinator.swift */,
+				4A98992F274C031F008A5FAA /* SignInFlowCoordinator.swift */,
+				4A989936274C080C008A5FAA /* JokeFlowCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		4A98990E274BEDBB008A5FAA /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4A98990F274BEE6D008A5FAA /* UserDefaultsService.swift */,
+				4A989938274C0C34008A5FAA /* JokeService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		4A989913274BEF91008A5FAA /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				4A989931274C0519008A5FAA /* Jokes */,
+				4A989929274C01F6008A5FAA /* SignIn */,
+				4A98991D274BF4B0008A5FAA /* SignUp */,
+				4A989914274BEF99008A5FAA /* AuthChoice */,
+				4A98991B274BF272008A5FAA /* ModuleBuilder.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		4A989914274BEF99008A5FAA /* AuthChoice */ = {
+			isa = PBXGroup;
+			children = (
+				4A989915274BEFB0008A5FAA /* AuthChoiceViewController.swift */,
+				4A989917274BF17C008A5FAA /* AuthChoiceModuleIO.swift */,
+			);
+			path = AuthChoice;
+			sourceTree = "<group>";
+		};
+		4A98991D274BF4B0008A5FAA /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				4A98991E274BF674008A5FAA /* SignUpLoginViewController.swift */,
+				4A989920274BF746008A5FAA /* SignUpModuleIO.swift */,
+				4A989922274BF8B4008A5FAA /* SignUpPasswordViewController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		4A989926274BFD99008A5FAA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4A989927274BFDB1008A5FAA /* Array+FlowCoordinatorProtocol.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4A989929274C01F6008A5FAA /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				4A98992A274C0209008A5FAA /* SignInViewController.swift */,
+				4A98992C274C0215008A5FAA /* SignInModuleIO.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		4A989931274C0519008A5FAA /* Jokes */ = {
+			isa = PBXGroup;
+			children = (
+				4A989932274C0522008A5FAA /* JokesViewController.swift */,
+				4A989934274C06CA008A5FAA /* JokesModuleIO.swift */,
+			);
+			path = Jokes;
+			sourceTree = "<group>";
+		};
+		4A98993A274C0CDC008A5FAA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A98993B274C0CF1008A5FAA /* JokeResponseModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +267,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A9898F4274BE54E008A5FAA /* ViewController.swift in Sources */,
+				4A989928274BFDB1008A5FAA /* Array+FlowCoordinatorProtocol.swift in Sources */,
+				4A989933274C0522008A5FAA /* JokesViewController.swift in Sources */,
+				4A989937274C080C008A5FAA /* JokeFlowCoordinator.swift in Sources */,
+				4A989910274BEE6D008A5FAA /* UserDefaultsService.swift in Sources */,
+				4A98991F274BF674008A5FAA /* SignUpLoginViewController.swift in Sources */,
+				4A98993C274C0CF1008A5FAA /* JokeResponseModel.swift in Sources */,
+				4A989925274BFA88008A5FAA /* SignUpFlowCoordinator.swift in Sources */,
+				4A98992D274C0215008A5FAA /* SignInModuleIO.swift in Sources */,
+				4A989916274BEFB0008A5FAA /* AuthChoiceViewController.swift in Sources */,
+				4A98991C274BF272008A5FAA /* ModuleBuilder.swift in Sources */,
+				4A989918274BF17C008A5FAA /* AuthChoiceModuleIO.swift in Sources */,
+				4A98992B274C0209008A5FAA /* SignInViewController.swift in Sources */,
+				4A98990B274BEBE5008A5FAA /* MainFlowCoordinator.swift in Sources */,
+				4A98990D274BEBF7008A5FAA /* FlowCoordinatorProtocol.swift in Sources */,
+				4A989921274BF746008A5FAA /* SignUpModuleIO.swift in Sources */,
+				4A989923274BF8B4008A5FAA /* SignUpPasswordViewController.swift in Sources */,
 				4A9898F0274BE54E008A5FAA /* AppDelegate.swift in Sources */,
 				4A9898F2274BE54E008A5FAA /* SceneDelegate.swift in Sources */,
+				4A989935274C06CA008A5FAA /* JokesModuleIO.swift in Sources */,
+				4A989939274C0C34008A5FAA /* JokeService.swift in Sources */,
+				4A989930274C031F008A5FAA /* SignInFlowCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
